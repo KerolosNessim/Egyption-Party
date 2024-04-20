@@ -1,0 +1,85 @@
+/* start side bar style */
+.side-bar{
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 0px;
+    overflow: hidden;
+}
+.side-bar ul li a {
+transition: all .3s;
+text-decoration: none ;
+color: white;
+}
+.side-bar ul li a:hover {
+color: rgb(220, 53, 69);
+}
+.side-bar i{
+   transition: all .3s; 
+   color: white;
+}
+.side-bar i:hover {
+color: rgb(220, 53, 69);
+}
+/* end  side bar style */
+/* start home style */
+.home{
+    background-image: url(../images/events-heavenly-header.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.home .layer{
+    background-color:rgba(214, 46, 51, 0.6) ;
+}
+.home .layer .content h1{
+font-size: 60px;
+}
+.home .menu{
+    top :65%;
+    left: 0px;
+    cursor: pointer;
+}
+/* end home style */
+/* start details style */
+.details .singer h3{
+    background-color: rgb(230, 130, 133);
+    cursor: pointer;
+}
+.details .singer p{
+    background-color: rgb(204, 204, 204);
+    display: none;
+}
+.details .singer p.active{
+    display: block;
+}
+/* end details style */
+/* start duration style */
+.duration{
+    background-image: url(../images/invitation-2508607__340.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.duration .layer{
+    background-color:rgba(214, 46, 51, 0.6) ;
+}
+/* end duration style */
+/* start contact style */
+.contact .icons .icon {
+    border: 1px solid rgb(119, 119, 119);
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    transition: all .3s;
+}
+.contact .icons .icon:hover {
+    border: 1px solid rgb(220, 53, 69);
+    background-color: rgb(220, 53, 69);
+    color: white;
+}
+
+/* end contact style */
